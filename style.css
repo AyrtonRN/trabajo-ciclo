@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+	font-family: 'Lobster', cursive;
+}
+*{
+	margin: 0;
+    padding: 0;
+}
+.container{
+	display: flex;
+	width: 100%;
+	overflow: : hidden;
+	max-width: 1200px;
+}
+.cabecera{
+	background-color: #C7F2DF;
+	height: 1000px;
+	background-image: url("imagenes/banner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cabecera .container{
+	padding: 0;
+}
+
+.op{
+
+	color: #643904;
+	text-decoration: none;
+	margin-right: 0px;
+	padding: 10px 15px;
+	font-weight: bold;
+}
+.menu{
+	display: flex;
+	width: 60%;
+	margin: 20px 0 0 1100px;
+	height: 40px;
+	display: flex;
+	height: 70px;
+	align-items: center;
+	font-weight: 700;
+}
+.op:hover{
+	color: white;
+	background-color: #E81C48;
+}
+.logo{
+	margin-top: 25px;
+	margin-left: 100px;
+	width: 20%;
+}
+#carrito{
+	margin: 40px 0 0 10px
+}
+
+
+
+#columnas{
+	background-color: #C7F2DF;
+	display: flex;
+	padding: 10px;
+	color: #643904;
+}
+#columna1{
+	padding: 0 0 60px 350px;
+}
+#columna2{
+	padding: 10px 0 0 200px;
+	text-align: justify;
+}
+#columna3{
+	margin: 0 0 0 350px;
+	
+}
+#columna4{
+	padding: 0 0 0 80px;
+	border-radius: 50%;
+}
+.img2{
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+li{
+	text-decoration: underline;
+}
+
+
+
+
+#footer{
+	background: linear-gradient(180deg, #643904 0%, #321D02 100%);
+	display: flex;
+	height: 300px;
+}
+#columna_logo{
+	margin: 50px 0 0 70px;
+}
+#columna_lista{
+	margin: 50px 0 0 450px;
+}
+#columna_redes{
+	margin: 50px 0 0 800px;
+}
+.pie{
+	list-style: none;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-top: 5px;
+}
+.pie:hover{
+	color: #E81C48;
+}
+.redes{
+	margin-right: 20px;
+}
